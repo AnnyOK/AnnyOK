@@ -1,7 +1,11 @@
-- 👋 Hi, I’m @AnnyOK
-- 👀 I’m interested in Artificial intelligence and front end web development, JavaScript,nodejs,react,view,angular.
-- 🌱 I’m currently learning python.
-- 💞️ I’m looking to collaborate on ...
+- 👋 Hi, I’m Okpala Anayo
+- Fullstack Nodejs Developer with 3 years plus experience in agile software development. 
+- Profficient in Reactjs, Nextjs, Expressjs, Adonisjs, Lightningjs, Relational Database(Postgresql,mysql) and Non-relational database(Mongodb).
+- Have experience with figma design and prototyping.
+- Good with testing frameworks:- jest,mocha,e.tc
+- experience with documentation libraries tools like postman and swagger for api documentation and storybook for react component documentation.
+- Other skills and tools i work with are jira for team and project management, git for version control,scrum methods.
+- 💞️ I’m looking to collaborate on Nodejs projects, React, typescript, lightning js,e.t.c.
 - 📫 How to reach me ...you can contact me on gmail and linkedin using okpalaanayo@gmail.com
 
 <!---
