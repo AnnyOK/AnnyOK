@@ -12,7 +12,7 @@ public interface PersonDao {
         UUID id = UUID.randomUUID();
         return insertPerson(id,person);
     }
-     List<Person> selecetAllPeople();
+     List<Object> selectAllPeople();
     Optional<Person> selectPersonById(UUID id);
     int deletePersonById(UUID id);
     int updatePerson(UUID id,Person person);

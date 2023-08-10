@@ -4,10 +4,8 @@ import com.Javaproject.AnnyOk.repositories.Person;
 import org.slf4j.Logger;
 import org.springframework.stereotype.Repository;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Optional;
-import java.util.UUID;
+import java.util.*;
+
 import org.slf4j.LoggerFactory;
 
 @Repository("fakeDao")
@@ -22,8 +20,8 @@ public class FakePerson implements PersonDao{
     }
 
     @Override
-    public List<Person> selecetAllPeople() {
-        return DB;
+    public List<Object> selectAllPeople() {
+        return Collections.singletonList(DB);
     }
 
     @Override

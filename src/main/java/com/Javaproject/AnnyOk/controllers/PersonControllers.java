@@ -3,8 +3,8 @@ package com.Javaproject.AnnyOk.controllers;
 import com.Javaproject.AnnyOk.repositories.Person;
 import com.Javaproject.AnnyOk.services.PersonService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
@@ -14,11 +14,13 @@ import java.util.logging.Logger;
 @RequestMapping("/api/v1/person")
 public class PersonControllers {
     private final PersonService personService;
+    private final JdbcTemplate jdbcTemplate;
     private static final Logger logger = Logger.getLogger(PersonControllers.class.getName());
 @Autowired
-    public PersonControllers(PersonService personService) {
+    public PersonControllers(PersonService personService, JdbcTemplate jdbcTemplate) {
         this.personService = personService;
-    }
+    this.jdbcTemplate = jdbcTemplate;
+}
     @PostMapping
     public void addPerson(@RequestBody() Person person)throws Exception{
 
